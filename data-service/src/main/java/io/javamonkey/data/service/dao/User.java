@@ -15,6 +15,8 @@ public class User implements Serializable
 	@Email
 	private String username;
 	private String password;
+	private String firstName;
+	private String lastName;
 	
 	protected User(){
 		// No-arg constructor for JPA
